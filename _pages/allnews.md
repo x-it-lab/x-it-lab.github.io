@@ -4,15 +4,11 @@ layout: page
 permalink: /allnews.html
 ---
 
-# News
+# {{ page.title }}
 
 <div class="section-card" markdown="0">
-<div class="news-timeline">
-{% for article in site.data.news %}
-<div class="news-item">
-<span class="news-date">{{ article.date }}</span>
-<span class="news-headline">{{ article.headline }}</span>
-</div>
-{% endfor %}
-</div>
+<p style="text-align:center; padding: var(--space-8) 0;">
+🚧 This page is under construction.<br>
+<span style="color: var(--text-secondary);">Content coming soon.</span>
+</p>
 </div>

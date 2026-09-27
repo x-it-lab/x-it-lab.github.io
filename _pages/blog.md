@@ -4,17 +4,11 @@ layout: page
 permalink: /blog/
 ---
 
-# Blog
+# {{ page.title }}
 
-{% if site.posts.size > 0 %}
 <div class="section-card" markdown="0">
-{% for post in site.posts %}
-<div class="news-item" style="padding: 1rem 0; border-bottom: 1px solid var(--border-color);">
-<span class="news-date">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-<a href="{{ post.url | relative_url }}" style="font-weight: 600;">{{ post.title }}</a>
+<p style="text-align:center; padding: var(--space-8) 0;">
+🚧 This page is under construction.<br>
+<span style="color: var(--text-secondary);">Content coming soon.</span>
+</p>
 </div>
-{% endfor %}
-</div>
-{% else %}
-<p class="text-muted">No blog posts yet.</p>
-{% endif %}

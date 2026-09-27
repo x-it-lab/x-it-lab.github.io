@@ -4,20 +4,11 @@ layout: page
 permalink: /publications/
 ---
 
-# Publications
+# {{ page.title }}
 
-<input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
-
-<div class="section-card" id="pubList">
-<h2>Preprints</h2>
-
-{% bibliography --query @unpublished %}
-
-<h2>Refereed Journal Articles</h2>
-
-{% bibliography --query @article %}
-
-<h2>Refereed Conference Proceedings</h2>
-
-{% bibliography --query @inproceedings %}
+<div class="section-card" markdown="0">
+<p style="text-align:center; padding: var(--space-8) 0;">
+🚧 This page is under construction.<br>
+<span style="color: var(--text-secondary);">Content coming soon.</span>
+</p>
 </div>
