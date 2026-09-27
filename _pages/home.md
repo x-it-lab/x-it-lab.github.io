@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div style="text-align:center; margin-bottom: var(--space-4);" markdown="0">
-<img src="{{ '/images/logo.png' | relative_url }}" alt="X-IT Lab logo" width="200" style="max-width:200px; height:auto;">
+<img src="{{ '/images/logo.png' | relative_url }}" alt="X-IT Lab logo" width="320" style="max-width:320px; height:auto;">
 </div>
 
 <h1 class="home-hero">{{ site.name }}</h1>
