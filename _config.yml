@@ -5,15 +5,15 @@ name: "X-IT Lab"
 title: "Physical AI & Communication Lab"
 institution: "Gyeongsang National University"
 email: "bcchung@gnu.ac.kr, junbeom@gnu.ac.kr"
-photo: headshot.jpg  # place your photo in images/
+photo: avatar.png
 
 # ============================================================
 # STEP 2: Your Links (optional -- leave blank to hide an icon)
 # ============================================================
 links:
   google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
+  github: "https://github.com/x-it-lab"
+  researchgate: ""
   orcid: ""
   twitter: ""
   linkedin: ""
